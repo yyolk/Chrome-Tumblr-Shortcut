@@ -1,7 +1,7 @@
 {
-  "name": "Basecamp Next Shortcut",
-  "version": "0.4",
-  "description": "Provide a shortcut to the new Basecamp",
+  "name": "Basecamp Personal",
+  "version": "0.4.1",
+  "description": "Provide a shortcut to the new Basecamp (personal)",
   "options_page": "options.html",
   "app": {
     "launch": {
