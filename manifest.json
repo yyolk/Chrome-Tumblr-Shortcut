@@ -1,6 +1,6 @@
 {
   "name": "tumblr.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Provide a shortcut to tumblr",
   "options_page": "options.html",
   "app": {
