@@ -1,7 +1,7 @@
 {
-  "name": "Basecamp Personal",
-  "version": "0.4.1",
-  "description": "Provide a shortcut to the new Basecamp (personal)",
+  "name": "tumblr Shortcut",
+  "version": "0.0.1",
+  "description": "Provide a shortcut to tumblr",
   "options_page": "options.html",
   "app": {
     "launch": {

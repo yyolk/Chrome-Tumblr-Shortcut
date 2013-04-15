@@ -1,10 +1,10 @@
 (function($){
 
-  var BasecampRedirect = function(){
-    this.basecampUrl = "http://basecamp.com/";
+  var TumblrRedirect = function(){
+    this.tumblrUrl = "http://tumblr.com/";
   }
 
-  BasecampRedirect.prototype.setAccountID = function(accountID){
+  TumblrRedirect.prototype.setAccountID = function(accountID){
     if(accountID) {
       localStorage["bcAccountID"] = accountID;
       return true;
@@ -14,29 +14,29 @@
     }
   }
 
-  BasecampRedirect.prototype.getAccountID = function(){
+  TumblrRedirect.prototype.getAccountID = function(){
     accountID = parseInt(localStorage["bcAccountID"]);
     if(accountID) return accountID;
   }
 
-  BasecampRedirect.prototype.save = function(){
+  TumblrRedirect.prototype.save = function(){
     if(this.setAccountID(parseInt($("#bc_account_id").val())))
       this.redirect();
   };
 
-  BasecampRedirect.prototype.load = function(){
+  TumblrRedirect.prototype.load = function(){
     $("#bc_account_id").val(this.getAccountID());
   };
 
-  BasecampRedirect.prototype.redirect = function(){
+  TumblrRedirect.prototype.redirect = function(){
     if(this.getAccountID()) {
-      window.location.replace(this.basecampUrl + this.getAccountID());
+      window.location.replace(this.tumblrUrl + this.getAccountID());
     } else {
       window.location.replace("/options.html");
     }
   }
 
-  BasecampRedirect.prototype.setup = function(){
+  TumblrRedirect.prototype.setup = function(){
     var that = this;
     if(window.location.pathname === "/options.html") {
       $("#save_bc_account_id").on("click", function(ev){ that.save() });
@@ -47,8 +47,8 @@
   }
 
   $(document).ready(function(){
-    var bcRedirect = new BasecampRedirect();
-    bcRedirect.setup();
+    var tRedirect = new TumblrRedirect();
+    tRedirect.setup();
   });
 
 })(jQuery);

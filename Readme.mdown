@@ -1,7 +1,7 @@
-Provide a shortcut to the new Basecamp
+Provide a shortcut to tumblr
 ======================================
 
-Shortcut to the NEW Basecamp, since I like a shortcut on my new Tab page.
+Shortcut to tumblr, since I like a shortcut on my new Tab page.
 
 Install from the Chrome Web Store
 ---------------------------------
@@ -14,6 +14,5 @@ Install from the Git
   1. Enable Developermode in the Extension setting
   2. Load this folder as an unpacked extension.
 
-Basecamp is a product by 37signals.com, I am in no way affiliated with them, Icon from 37signals.com
-http://sideshowcoder.com
+
 
