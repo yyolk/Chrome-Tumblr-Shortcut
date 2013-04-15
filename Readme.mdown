@@ -15,3 +15,5 @@ Install from the Git
   2. Load this folder as an unpacked extension.
 
 Icon by [Antrepo](http://www.iconarchive.com/show/container-4-cargo-vans-icons-by-antrepo/Tumblr-Shipping-Box-icon.html)
+
+tumblr copyright [tumblr.com](http://tumblr.com)
