@@ -6,7 +6,7 @@ Shortcut to tumblr, since I like a shortcut on my new Tab page.
 Install from the Chrome Web Store
 ---------------------------------
 
-[Just go here](http://google.com/) (not available yet)
+[Just go here](https://chrome.google.com/webstore/detail/giikciflnljhpomkphelpoiheghamifc)
 
 Install from the Git
 --------------------
