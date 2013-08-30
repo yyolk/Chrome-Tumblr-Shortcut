@@ -1,12 +1,14 @@
 {
   "name": "tumblr.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Provide a shortcut to tumblr",
   "app": {
+    "urls": ["http://tumblr.yolk.cc/"],
     "launch": {
-      "local_path": "index.html"
+      "web_url": "http://tumblr.yolk.cc"
     }
   },
+  "permissions": [],
   "icons": {
     "16": "icon_16.png",
     "128": "icon_128.png"

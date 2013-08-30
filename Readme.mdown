@@ -3,6 +3,8 @@ Provide a shortcut to tumblr
 
 Shortcut to tumblr, since I like a shortcut on my new Tab page.
 
+20130702: Update! now much faster!
+
 Install from the Chrome Web Store
 ---------------------------------
 
