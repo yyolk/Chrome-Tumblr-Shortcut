@@ -1,7 +1,7 @@
 {
-  "name": "tumblr.",
-  "version": "0.0.4",
-  "description": "Provide a shortcut to tumblr",
+  "name": "Tumblr",
+  "version": "0.0.5",
+  "description": "Provide a shortcut to the Tumblr dashboard.",
   "app": {
     "urls": ["http://tumblr.yolk.cc/"],
     "launch": {
