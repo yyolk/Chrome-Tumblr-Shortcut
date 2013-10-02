@@ -16,6 +16,6 @@ Install from the Git
   1. Enable Developermode in the Extension setting
   2. Load this folder as an unpacked extension.
 
-Icon design by Milo Luca https://plus.google.com/118150745414126162835
+Icon design by [Milo Luca](https://plus.google.com/118150745414126162835)
 
 "Tumblr" copyright [tumblr.com](http://tumblr.com)
